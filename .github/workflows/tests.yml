@@ -1,0 +1,16 @@
+
+name: tests
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    name: Bash on ${{ matrix.os }}
+    steps:
+          - name: Run tests
+            run: ./tests/batch_execute.sh
+            shell: bash
