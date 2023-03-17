@@ -9,6 +9,12 @@ https://user-images.githubusercontent.com/15861316/226044113-16c30a65-c2dc-4193-
 - minimal dependencies (only `bash` and `wget`)
     - do not need to install `entrez-direct` (https://www.biostars.org/p/97782/)
 
+## Installation
+
+```bash
+wget https://raw.githubusercontent.com/akikuno/gse2srr/main/gse2srr.sh
+```
+
 ## Usage
 
 ```bash
