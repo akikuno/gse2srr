@@ -3,7 +3,7 @@
 ## Features
 
 - minimal dependencies (only `bash` and `wget`)
-    - do not need to install `entrez-direct`
+    - do not need to install `entrez-direct` (https://www.biostars.org/p/97782/)
 
 ## Usage
 
