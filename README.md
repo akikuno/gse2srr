@@ -1,5 +1,4 @@
-# `gse2srr.sh` : portable script to convert ID from GSE to SRR
-
+# `gse2srr.sh` : a portable script to convert IDs from GSE to SRR”
 
 https://user-images.githubusercontent.com/15861316/226044113-16c30a65-c2dc-4193-be69-e3b04d7e7589.mp4
 
