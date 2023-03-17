@@ -11,6 +11,7 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     name: Bash on ${{ matrix.os }}
     steps:
+          - uses: actions/checkout@v3
           - name: Run tests
             working-directory: tests
             run: ./batch_execute.sh
