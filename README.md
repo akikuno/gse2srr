@@ -1,4 +1,4 @@
-# gse2srr.sh: convert GSE ID to SRR
+# `gse2srr.sh`: script to convert ID from GSE to SRR
 
 ## Features
 
