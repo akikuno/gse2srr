@@ -1,4 +1,6 @@
-# `gse2srr.sh`: a portable script to convert ID from GSE to SRR
+# `gse2srr.sh`
+
+portable bash script to convert ID from GSE to SRR
 
 ## Features
 
@@ -8,13 +10,13 @@
 ## Usage
 
 ```bash
-./gse2srr.sh <GSE Number>
+sh gse2srr.sh <GSE Number>
 ```
 
 ### Example
 
 ```bash
-./gse2srr.sh GSE199916
+sh gse2srr.sh GSE199916
 # SRR18579290
 # SRR18579291
 # SRR18579292
