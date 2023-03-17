@@ -9,8 +9,6 @@ wget -qO - https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc="$GSE" |
     xargs wget -qO - |
     gzip -dc |
     grep SRX |
-    awk '{print $NF}' |
-    awk '{print "wget -qO -", $0}' |
-    awk '{print $0 " | tr \">\" \"\\n\" | grep \"^SRR\" | cut -d \"<\" -f 1 &"}' |
-    awk 'END{print "wait"}1' |
-    bash -
+    awk '{print "wget -qO -", $NF, " | tr \">\" \"\\n\" | grep \"^SRR\" | cut -d \"<\" -f 1 &"} END {print "wait"}' |
+    bash - |
+    sort
