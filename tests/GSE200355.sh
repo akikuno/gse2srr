@@ -14,7 +14,7 @@ SRR18671852
 SRR18671853
 EOF
 
-./gse2srr.sh GSE200355 |
+sh ./gse2srr.sh GSE200355 |
     sort >test_exam.txt
 
 if cmp --silent test_exam.txt test_answer.txt; then

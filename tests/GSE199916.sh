@@ -13,7 +13,7 @@ SRR18579296
 SRR18579297
 EOF
 
-./gse2srr.sh GSE199916 |
+sh ./gse2srr.sh GSE199916 |
     sort >test_GSE199916.txt
 
 if cmp --silent test_GSE199916.txt test_answer.txt; then
