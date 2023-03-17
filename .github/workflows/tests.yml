@@ -12,6 +12,6 @@ jobs:
     name: Bash on ${{ matrix.os }}
     steps:
           - name: Run tests
-            working-directory: ./tests
+            working-directory: tests
             run: ./batch_execute.sh
             shell: bash
