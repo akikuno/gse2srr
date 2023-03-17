@@ -13,5 +13,4 @@ jobs:
     steps:
           - uses: actions/checkout@v3
           - name: Run tests
-            working-directory: tests
-            run: sh batch_execute.sh
+            run: sh tests/batch_execute.sh
