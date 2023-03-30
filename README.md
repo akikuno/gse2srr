@@ -38,3 +38,10 @@ sh gse2srr.sh GSE199916
 
 - [prjna2srr.sh](https://github.com/akikuno/prjna2srr): to convert PRJNA (BioProject accession ID) to SRR
 
+## Questions and bug reporting
+
+Questions, bug reporting or any inqueries are always welcome!  
+Please reprt to the [GitHub Issues](https://github.com/akikuno/gse2srr/issues)  
+
+- Questions by creating a new issue with the **question** tag
+- Bugs by creating a new issue with the **bug** tag
