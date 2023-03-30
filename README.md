@@ -33,3 +33,8 @@ sh gse2srr.sh GSE199916
 # SRR18579296
 # SRR18579297
 ```
+
+## Other tools
+
+- [prjna2srr.sh](https://github.com/akikuno/prjna2srr): to convert PRJNA (BioProject accession ID) to SRR
+
