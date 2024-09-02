@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 GSE="$1"
 
 if [ -z "$GSE" ]; then
