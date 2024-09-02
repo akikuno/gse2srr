@@ -5,8 +5,12 @@ https://user-images.githubusercontent.com/15861316/226044113-16c30a65-c2dc-4193-
 
 ## Features
 
-- minimal dependencies (only `bash` and `wget` or `curl`)
-    - do not need to install `entrez-direct` (https://www.biostars.org/p/97782/)
+- minimal dependencies
+  - `bash`
+  - `wget` or `curl`
+
+> [!IMPORTANT]
+> You do NOT need to install `entrez-direct` (https://www.biostars.org/p/97782/).
 
 ## Installation
 
